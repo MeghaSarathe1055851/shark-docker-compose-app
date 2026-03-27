@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 20px;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+h1 {
+    background-color: #1e4db7;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+/* Columns */
+.column {
+    width: 30%;
+}
+
+/* Text styling */
+.caption {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+/* Shark list */
+.shark-list {
+    list-style: none;
+    padding: 0;
+}
+
+.shark-list li {
+    margin-bottom: 15px;
+}

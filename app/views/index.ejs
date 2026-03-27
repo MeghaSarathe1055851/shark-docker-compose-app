@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Everything Sharks</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <h2>Everything Sharks</h2>
+    <div>
+        <a href="/">Home</a>
+        <a href="/sharks">Sharks</a>
+    </div>
+</nav>
+
+<!-- Header -->
+<h1>Shark Info</h1>
+
+<!-- Main Content -->
+<div class="container">
+
+    <!-- Column 1 -->
+    <div class="column">
+        <p class="caption">
+            Some sharks are known to be dangerous to humans, though many more are not.
+            The sawshark, for example, is not considered a threat to humans.
+        </p>
+        <img src="https://assets.digitalocean.com/articles/docker_node_image/sawshark.jpg" alt="Sawshark">
+    </div>
+
+    <!-- Column 2 -->
+    <div class="column">
+        <p class="caption">
+            Other sharks are known to be friendly and welcoming!
+        </p>
+        <img src="https://assets.digitalocean.com/articles/docker_node_image/sammy.png" alt="Sammy the Shark">
+    </div>
+
+    <!-- Column 3 -->
+    <div class="column">
+        <div class="caption">Your Sharks</div>
+
+        <ul class="shark-list">
+            <% sharks.forEach(function(shark) { %>
+                <li>
+                    <p><strong>Name:</strong> <%= shark.name %></p>
+                    <p><strong>Character:</strong> Ancient</p>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
