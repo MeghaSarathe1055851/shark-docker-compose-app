@@ -1,5 +1,5 @@
 # shark-docker-compose-app
-Docker Compose-based multi-container application integrating Node.js and MongoDB to serve a Shark Info webpage (CSC555 Cloud Computing Assignment).
+Docker Compose-based multi-container application integrating Node.js and MongoDB to serve a Shark Info webpage (CSC581 Cloud Computing Assignment).
 
 
 # Shark Docker Compose App
